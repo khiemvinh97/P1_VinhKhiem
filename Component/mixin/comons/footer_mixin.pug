@@ -1,3 +1,4 @@
+
 mixin about_item(title,items)
   .about__item
     h3
@@ -9,6 +10,7 @@ mixin about_item(title,items)
           p
             i(class=item.icon)
             =item.text
+
 
 mixin answer_item(items)
   each item in items 
@@ -23,3 +25,6 @@ mixin list_footer(items)
   each item in items
     li 
       a(href="#")=item
+
+
+
